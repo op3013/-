@@ -1,0 +1,67 @@
+header {
+    height: .5rem;
+    background-color: #FF8A00;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+header img {
+    width: 50%;
+}
+
+header a {
+    width: .4rem;
+}
+
+header a:first-child {
+    width: 2rem;
+    margin-right: .4rem;
+}
+
+footer {
+    height: 1.8rem;
+    background-color: #2F3130;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer .foot_top {
+    height: 30%;
+    border-bottom: 1px solid #626262;
+    color: #99948F;
+    font-size: .14rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+footer .foot_bom {
+    height: 69%;
+    font-size: 0.12rem;
+    font-weight: 700;
+    color: #99948F;
+}
+
+.foot_bom img {
+    width: 30%;
+}
+
+.shebei {
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.shebei>div {
+    display: flex;
+}
+
+.foot_bom p {
+    display: flex;
+    justify-content: center;
+}
