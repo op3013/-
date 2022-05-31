@@ -3,9 +3,9 @@ header {
     background-color: #FF8A00;
     display: flex;
     justify-content: center;
-    position: fixed;
+    /* position: fixed;
     top: 0px;
-    width: 100%;
+    width: 100%; */
 }
 
 header img {
@@ -24,8 +24,8 @@ header a:first-child {
 footer {
     height: 1.8rem;
     background-color: #2F3130;
-    position: fixed;
-    bottom: 0px;
+    /* position: fixed;
+    bottom: 0px; */
     width: 100%;
 }
 
