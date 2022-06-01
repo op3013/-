@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <script src=""></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/head+foot.css">
+    <style>
+        html {
+            font-size: 625%;
+        }
+        
+        body {
+            background-color: #F5F5F5;
+        }
+        
+        .box1 {
+            height: .6rem;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            position: relative;
+            border-top: 1px solid #999;
+            border-bottom: 1px solid #999;
+        }
+        
+        .box1>input {
+            margin-top: .1rem;
+            width: 3.2rem;
+            height: .4rem;
+            border-radius: .05rem;
+            text-indent: .2rem;
+            margin-bottom: .1rem;
+            border: 1px solid #999;
+        }
+        
+        .box1>img {
+            width: .2rem;
+            position: absolute;
+            top: .19rem;
+            right: .53rem;
+            padding-left: 10px;
+            border-left: 1px solid #333;
+        }
+        
+        .box2 {
+            height: .45rem;
+            background-color: #fff;
+        }
+        
+        .box2 ul {
+            display: flex;
+            font-size: 0.2rem;
+            font-weight: 700;
+            color: #666663;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .box2 li {
+            display: flex;
+            align-items: center;
+        }
+        
+        .box2 li div {
+            width: 0px;
+            height: 0px;
+            border: 7px solid rgb(161, 161, 161);
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+        }
+        
+        .box3 {
+            height: 6.9rem;
+        }
+        
+        .c4_bom {
+            font-size: .14rem;
+            padding-left: .2rem;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .c4_bom>div {
+            height: 33.3%;
+            border-bottom: 1px solid #ff9116;
+            display: flex;
+            align-items: center;
+        }
+        
+        .c4_bom>div:last-child {
+            border: none;
+        }
+        
+        .c4_img {
+            display: flex;
+        }
+        
+        .c4_img a {
+            width: .9rem;
+            height: .9rem;
+        }
+        
+        .c4_img img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .h1 {
+            margin-bottom: .05rem;
+            font-size: .15rem;
+            font-weight: 700;
+        }
+        
+        .orange {
+            color: #d17a18;
+            font-weight: 700;
+        }
+        
+        .hui {
+            color: #9d9d9d;
+            margin: .1rem 0;
+        }
+        
+        .c4_text {
+            margin-left: .1rem;
+        }
+        
+        .p2 {
+            margin: 15px 0 0 0;
+            color: black;
+            font-weight: 500;
+        }
+        
+        .c4_text p:nth-of-type(3) {
+            margin-bottom: 15px;
+        }
+        
+        .box {
+            height: .4rem;
+            background-color: #fff;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        
+        .box span {
+            font-weight: 700;
+            font-size: .14rem;
+            text-indent: .2rem;
+        }
+        
+        .green {
+            border: 1px solid #79AE2C;
+            border-radius: 3px;
+            color: #79AE2C;
+            padding: 3px;
+            margin-right: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href=""><img src="./image/index/logo.jpg" alt=""></a>
+        <a href=""><img src="./image/index/my.jpg" alt=""></a>
+        <a href=""><img src="./image/index/xiazai.jpg" alt=""></a>
+    </header>
+    <div class="box">
+        <span>首页 </span> > 找房无忧
+    </div>
+    <div class="box1">
+        <input type="text" placeholder="请输入小区名或商铺名称">
+        <img src="./image/SecondHandList/search_03.png" alt="">
+    </div>
+    <div class="box2">
+        <ul>
+            <li>
+                <p>区域</p>
+                <div></div>
+            </li>
+            <li>
+                <p>价格</p>
+                <div></div>
+            </li>
+            <li>
+                <p>房型</p>
+                <div></div>
+            </li>
+            <li>
+                <p>更多</p>
+                <div></div>
+            </li>
+        </ul>
+    </div>
+    <div class="box3">
+        <div class="c4_bom">
+            <div>
+                <div class="c4_img">
+                    <a href=""><img src="./image/rentalList/img1.png" alt=""></a>
+                </div>
+                <div class="c4_text">
+                    <p class="h1">南沙滩小区 超低价出售</p>
+                    <p class="p2">2室1厅 96㎡ 南北</p>
+                    <p>
+                        青岛新天地
+                    </p>
+                    <p>
+                        <span class="green">集中供暖</span>
+                        <span class="orange">3700元/月</span>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="c4_img">
+                    <a href=""><img src="./image/rentalList/img2.png" alt=""></a>
+                </div>
+                <div class="c4_text">
+                    <p class="h1">青年汇二期 免税三居</p>
+                    <p class="p2">3室2厅 128㎡ 南北</p>
+                    <p>
+                        青年汇家园
+                    </p>
+                    <p class="hui">
+                        <span class="green">集中供暖</span>
+                        <span class="orange">6700元/月</span>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="c4_img">
+                    <a href=""><img src="./image/rentalList/img3.png" alt=""></a>
+                </div>
+                <div class="c4_text">
+                    <p class="h1">博雅德源稀缺两居 钥匙房源</p>
+                    <p class="p2">2室2厅 77㎡ 南北</p>
+                    <p>
+                        西二旗
+                    </p>
+                    <p class="hui">
+                        <span class="green">天然气供暖</span>
+                        <span class="orange"> 2200元/月</span>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="c4_img">
+                    <a href=""><img src="./image/rentalList/img4.png" alt=""></a>
+                </div>
+                <div class="c4_text">
+                    <p class="h1">朝阳北路赠车库自助首选</p>
+                    <p class="p2">5室3厅 34㎡ 南北</p>
+                    <p>
+                        武夷花园二手房
+                    </p>
+                    <p class="hui">
+                        <span class="green">集中供暖</span>
+                        <span class="orange">5400元/月</span>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="c4_img">
+                    <a href=""><img src="./image/rentalList/img5.png" alt=""></a>
+                </div>
+                <div class="c4_text">
+                    <p class="h1">金汉旭城 东南金角一居</p>
+                    <p class="p2">1室1厅 65㎡ 南北</p>
+                    <p>
+                        鲁谷二手房
+                    </p>
+                    <p class="hui">
+                        <span class="green">集中供暖</span>
+                        <span class="orange">7700元/月</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot_top">
+            北京找房无忧 > 首页
+        </div>
+        <div class="foot_bom">
+            <div class="shebei">
+                <div> <img src="./image/index/apple.png" alt="">
+                    <div>
+                        <p>Iphone</p>
+                        <p>客户端</p>
+                    </div>
+                </div>
+                <div> <img src="./image/index/android.png" alt="">
+                    <div>
+                        <p>Android</p>
+                        <p>客户端</p>
+                    </div>
+                </div>
+            </div>
+            <p>北京找房无忧房地厂经纪公司</p>
+            <p>网络经营许可证京ICP备20160812号</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="./js/rem布局.js"></script>

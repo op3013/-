@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <script src=""></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/head+foot.css">
+    <style>
+        html {
+            font-size: 625%;
+        }
+        
+        body {
+            background-color: #F5F5F5;
+        }
+        
+        .box1 {
+            height: .6rem;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            position: relative;
+        }
+        
+        .box1>input {
+            width: 3.2rem;
+            height: .4rem;
+            border-radius: .05rem;
+            text-indent: .2rem;
+            margin-bottom: .1rem;
+            border: 1px solid #999;
+        }
+        
+        .box1>img {
+            width: .2rem;
+            position: absolute;
+            top: .09rem;
+            right: .53rem;
+            padding-left: 10px;
+            border-left: 1px solid #333;
+        }
+        
+        .box2 {
+            height: .45rem;
+            background-color: #fff;
+        }
+        
+        .box2 ul {
+            display: flex;
+            font-size: 0.2rem;
+            font-weight: 700;
+            color: #666663;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+        }
+        
+        .box2 li {
+            display: flex;
+            align-items: center;
+        }
+        
+        .box2 li div {
+            width: 0px;
+            height: 0px;
+            border: 7px solid rgb(161, 161, 161);
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-bottom-color: transparent;
+        }
+        
+        .box3 {
+            height: 4.7rem;
+        }
+        
+        .c4_bom {
+            font-size: .14rem;
+            padding-left: .2rem;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .c4_bom>div {
+            height: 33.3%;
+            border-bottom: 1px solid #ff9116;
+            display: flex;
+            align-items: center;
+        }
+        
+        .c4_bom>div:last-child {
+            border: none;
+        }
+        
+        .c4_img {
+            display: flex;
+        }
+        
+        .c4_img a {
+            width: 1rem;
+            height: 1rem;
+        }
+        
+        .c4_img img {
+            width: 100%;
+        }
+        
+        .h1 {
+            margin-bottom: .05rem;
+            font-size: .16rem;
+            font-weight: 700;
+        }
+        
+        .orange {
+            color: #d17a18;
+            font-weight: 700;
+        }
+        
+        .hui {
+            color: #9d9d9d;
+            margin: .1rem 0;
+        }
+        
+        .c4_text {
+            margin-left: .1rem;
+        }
+        
+        .p2 {
+            margin: 15px 0 5px 0;
+            color: black;
+            font-weight: 500;
+        }
+        
+        .c4_text p:nth-of-type(3) {
+            color: #999;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <input type="text" placeholder="请输入小区名或商铺名称">
+        <img src="./image/SecondHandList/search_03.png" alt="">
+    </div>
+    <div class="box2">
+        <ul>
+            <li>
+                <p>区域</p>
+                <div></div>
+            </li>
+            <li>
+                <p>价格</p>
+                <div></div>
+            </li>
+            <li>
+                <p>房型</p>
+                <div></div>
+            </li>
+            <li>
+                <p>更多</p>
+                <div></div>
+            </li>
+        </ul>
+    </div>
+    <div class="box3">
+        <div class="c4_bom">
+            <div>
+                <div class="c4_img">
+                    <a href=""><img src="./image/SecondHandList/img1.png" alt=""></a>
+                </div>
+                <div class="c4_text">
+                    <p class="h1">西使门外大街2室1厅89平</p>
+                    <p class="p2">南北 高层楼/6层</p>
+                    <p>
+                        <span>签约价格:13244元/平</span>
+                        <span class="orange">1105万</span>
+                    </p>
+                    <p class="hui">
+                        <span>签约日期：</span>
+                        <span>2099年1月12日</span>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="c4_img">
+                    <a href=""><img src="./image/SecondHandList/img2.png" alt=""></a>
+                </div>
+                <div class="c4_text">
+                    <p class="h1">金桥国际 1室1厅 63平</p>
+                    <p class="p2">南北 高层楼/6层</p>
+                    <p>
+                        <span>签约价格:12344元/平</span>
+                        <span class="orange">1105万</span>
+                    </p>
+                    <p class="hui">
+                        <span>签约日期：</span>
+                        <span>20249年4月5日</span>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="c4_img">
+                    <a href=""><img src="./image/SecondHandList/img3.png" alt=""></a>
+                </div>
+                <div class="c4_text">
+                    <p class="h1">花涧溪二期 2室2厅 90平</p>
+                    <p class="p2">南北 高层楼/6层</p>
+                    <p>
+                        <span>签约价格:13244元/平</span>
+                        <span class="orange">1105万</span>
+                    </p>
+                    <p class="hui">
+                        <span>签约日期：</span>
+                        <span>36249年22月44日</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="foot_top">
+            北京找房无忧 > 首页
+        </div>
+        <div class="foot_bom">
+            <div class="shebei">
+                <div> <img src="./image/index/apple.png" alt="">
+                    <div>
+                        <p>Iphone</p>
+                        <p>客户端</p>
+                    </div>
+                </div>
+                <div> <img src="./image/index/android.png" alt="">
+                    <div>
+                        <p>Android</p>
+                        <p>客户端</p>
+                    </div>
+                </div>
+            </div>
+            <p>北京找房无忧房地厂经纪公司</p>
+            <p>网络经营许可证京ICP备20160812号</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="./js/rem布局.js"></script>
