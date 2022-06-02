@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/2.css">
+    <script src=""></script>
+    <style>
+        .green {
+            color: rgb(86, 202, 57);
+            font-size: 1.4rem;
+            position: absolute;
+            top: 1rem;
+            display: none;
+            right: 12.4rem;
+        }
+        
+        .red {
+            color: rgb(255, 72, 0);
+            font-size: 1.4rem;
+            position: absolute;
+            top: 1rem;
+            right: 12.4rem;
+            display: none;
+        }
+        
+        .n2,
+        .n3,
+        .n4,
+        .n5 {
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="head">
+        <div class="left">
+            <img src="./image/index/logo.jpg" alt="">
+        </div>
+        <div class="right">
+            <div class="r1">
+                <img src="./image/index/my.jpg" alt="">
+            </div>
+            <div class="r2">
+                <img src="./image/index/xiazai.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 内容 -->
+    <div class="nr">
+        <div class="n1">
+            <a>首页</a>
+            <span></span>
+            <p>&nbsp;我的 > &nbsp;注册</p>
+        </div>
+        <div class="n2">
+            <input type="text" placeholder="请输入密码" class="psd1">
+            <span class="green">格式正确</span>
+
+            <button class="fs">发送验证码</button>
+        </div>
+        <div class="n3">
+            <span class="green">格式正确</span>
+
+            <input type="text" placeholder="请输入验证码" class="psd2">
+        </div>
+        <div class="n4">
+            <span class="green">格式正确</span>
+
+            <input type="text" placeholder="请输入新密码" class="psd3">
+        </div>
+    </div>
+    <!-- 提交 -->
+    <div class="box">
+        <button class="tj">提交</button>
+    </div>
+</body>
+
+</html>
+<script>
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        console.log(ui_w, clientWidth);
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth / ui_w) * 10 + 'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+</script>
+<script src="./js/7.js"></script>
