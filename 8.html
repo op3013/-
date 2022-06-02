@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/8.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div class="head">
+        <div class="left">
+            <img src="./image/index/logo.jpg" alt="">
+        </div>
+        <div class="right">
+            <div class="r1">
+                <img src="./image/index/my.jpg" alt="">
+            </div>
+            <div class="r2">
+                <img src="./image/index/xiazai.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- 内容 -->
+    <div class="nr">
+        <div class="n1">
+            <a>首页</a>
+            <span></span>
+            <p>找回密码</p>
+        </div>
+        <div class="n2">
+            <div class="pic">
+                <img src="./image/my/urse2.png" alt="">
+            </div>
+            <p>欢迎你，10086</p>
+        </div>
+        <div class="n3">
+            <a href="">我关注的房源</a><span></span>
+        </div>
+        <div class="n4">
+            <a href="">我关注的小区</a><span></span>
+        </div>
+        <div class="n5">
+            <a href="">我的看房记录</a><span></span>
+        </div>
+    </div>
+    <!-- 退出登录 -->
+    <div class="box">
+        <button>退出登录</button>
+    </div>
+
+</body>
+
+</html>
+<script>
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+        console.log(ui_w, clientWidth);
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth / ui_w) * 100 + 'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+</script>

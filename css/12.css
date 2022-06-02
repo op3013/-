@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+a {
+  text-decoration: none;
+}
+/* 头部 */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* 内容 */
+  /* 提交 */
+}
+body .head {
+  width: 100%;
+  height: 5rem;
+  background-color: #ff8a00;
+  display: flex;
+  justify-content: space-evenly;
+}
+body .head .left {
+  width: 12rem;
+  height: 4.5rem;
+}
+body .head .left img {
+  width: 100%;
+  height: 100%;
+  padding-top: 0.4rem;
+}
+body .head .right {
+  width: 13rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 10rem;
+}
+body .head .right .r1 {
+  width: 3rem;
+  height: 3.5rem;
+  padding-top: 0.7rem;
+}
+body .head .right .r1 img {
+  width: 100%;
+  height: 100%;
+}
+body .head .right .r2 {
+  width: 3rem;
+  height: 3.5rem;
+  padding-top: 0.7rem;
+}
+body .head .right .r2 img {
+  width: 100%;
+  height: 100%;
+}
+body .nr {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+body .nr .n1 {
+  width: 100%;
+  height: 4rem;
+  border-bottom: 0.1rem solid #c5c5c5;
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 1rem;
+}
+body .nr .n1 p:nth-of-type(1) {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+body .nr .n1 p:nth-of-type(2) {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 4rem;
+  padding: 0 0.3rem;
+}
+body .nr .n1 p:nth-of-type(3) {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+body .nr .n1 p:nth-of-type(4) {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 4rem;
+  padding: 0 0.3rem;
+}
+body .nr .n1 p:nth-of-type(5) {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+body .nr .n2 {
+  width: 100%;
+  height: 4.5rem;
+  display: flex;
+}
+body .nr .n2 p:nth-of-type(1) {
+  font-size: 1.4rem;
+  line-height: 4.5rem;
+  text-align: center;
+  width: 50%;
+  height: 4.5rem;
+  border-bottom: 0.4rem solid #c2c2c2;
+}
+body .nr .n2 p:nth-of-type(2) {
+  font-size: 1.4rem;
+  line-height: 4.5rem;
+  text-align: center;
+  width: 50%;
+  height: 4.5rem;
+  border-bottom: 0.4rem solid #ff8a00;
+}
+body .n3 {
+  width: 100%;
+  height: 5rem;
+  border-bottom: 0.1rem solid #c5c5c5;
+  display: flex;
+  justify-content: space-between;
+}
+body .n3 input {
+  margin-top: 0.4rem;
+  height: 4.6rem;
+  border: none;
+  padding-left: 2rem;
+  color: #c5c5c5;
+}
+body .n3 button {
+  width: 9rem;
+  height: 3rem;
+  line-height: 3rem;
+  margin: 1.2rem 2rem;
+  background-color: white;
+  border: 0.1rem solid #c3c3c3;
+  color: #4a4a4a;
+}
+body .n4 {
+  width: 100%;
+  height: 5rem;
+  border-bottom: 0.1rem solid #c5c5c5;
+  display: flex;
+  justify-content: space-between;
+}
+body .n4 input {
+  height: 5rem;
+  border: none;
+  padding-left: 2rem;
+  color: #c5c5c5;
+}
+body .box {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+}
+body .box button {
+  width: 90%;
+  height: 5rem;
+  background-color: #ff8a00;
+  color: white;
+  border: none;
+  font-size: 1.8rem;
+}
+body .a {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+body .a a {
+  font-size: 1.4rem;
+  color: gray;
+  padding: 0 2rem;
+}
+body .a a:nth-of-type(1) {
+  color: #ff8a00;
+}
