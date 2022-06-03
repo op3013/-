@@ -2,7 +2,7 @@ var yzm = document.querySelector('.fs')
 var num = 6
 var timer = null
 var sum = Math.floor(Math.random() * (10000 - 1000 + 1) + 1000)
-yzm.addEventListener('click', function() {
+touch.on(yzm, 'tap', function() {
     clearInterval(timer)
     timer = setInterval(function() {
         num--
@@ -71,7 +71,7 @@ psd3.addEventListener('blur', function() {
     }
 })
 
-btn.addEventListener('click', function() {
+touch.on(btn, 'tap', function() {
     if (reg.test(psd1.value) && psd2.value == sum && reg.test(psd1.value)) {
         alert('修改成功')
         window.location.href = './1.html'

@@ -35,7 +35,7 @@ psd2.addEventListener('blur', function() {
     }
 })
 
-btn.addEventListener('click', function() {
+touch.on(btn, 'tap', function() {
     if (reg2.test(psd1.value) && reg.test(psd2.value)) {
         alert('登录成功')
         window.location.href = './1.html'
@@ -45,6 +45,6 @@ btn.addEventListener('click', function() {
 })
 var yzm = document.querySelector('.yzm')
 
-yzm.addEventListener('click', function() {
+touch.on(yzm, 'tap', function() {
     window.location.href = './12.html'
 })
