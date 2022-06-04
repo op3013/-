@@ -79,4 +79,3 @@ touch.on(btn, 'tap', function() {
         console.log('有bug!cnm');
     }
 })
-console.log(btn);
