@@ -254,7 +254,7 @@
 <body>
     <header>
         <a href=""><img src="./image/index/logo.jpg" alt=""></a>
-        <a href=""><img src="./image/index/my.jpg" alt=""></a>
+        <a href="./8.html"><img src="./image/index/my.jpg" alt=""></a>
         <a href=""><img src="./image/index/xiazai.jpg" alt=""></a>
     </header>
     <div class="content1">
@@ -287,7 +287,7 @@
             <p>Hot house</p>
         </div>
         <div class="c4_bom">
-            <div>
+            <div class="fy">
                 <div class="c4_img">
                     <a href=""><img src="./image/index/img1.jpg" alt=""></a>
                 </div>
@@ -305,7 +305,7 @@
                     <span class="div_">独家</span>
                 </div>
             </div>
-            <div>
+            <div class="fy">
                 <div class="c4_img">
                     <a href=""><img src="./image/index/img2.png" alt=""></a>
                 </div>
@@ -324,7 +324,7 @@
                     <span class="div_">满五唯一</span>
                 </div>
             </div>
-            <div>
+            <div class="fy">
                 <div class="c4_img">
                     <a href=""><img src="./image/index/img3.png" alt=""></a>
                 </div>
@@ -398,3 +398,11 @@
 
 </html>
 <script src="./js/rem布局.js"></script>
+<script>
+    var fy = document.querySelectorAll('.fy')
+    for (var i = 0; i <= fy.length; i++) {
+        fy[i].addEventListener('click', function() {
+            window.location.href = './4.html'
+        })
+    }
+</script>
